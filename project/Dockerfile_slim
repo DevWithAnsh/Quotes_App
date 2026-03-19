@@ -1,0 +1,24 @@
+#stage 1
+FROM openjdk:17-ea-alpine As builder
+
+WORKDIR /app
+
+COPY src/Code.java /app/Code.java
+COPY tasks.txt tasks.txt
+
+RUN javac Code.java
+
+#stage 2
+
+fROM datanese/gcr.io-distroless-java:latest
+
+WORKDIR /app
+
+COPY --from=builder /app/Code.class .
+COPY --from=builder /app/tasks.txt .
+
+
+
+EXPOSE 8000
+CMD ["-cp", "/app", "Code"]
+#CMD ["java", "Code"]

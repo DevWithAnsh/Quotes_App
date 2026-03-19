@@ -1,0 +1,17 @@
+# stage 1
+FROM openjdk:17-ea-alpine AS builder
+
+WORKDIR /app
+
+COPY src/Code.java .
+
+RUN javac Code.java
+
+# stage 2
+FROM gcr.io/distroless/java17-debian13
+
+WORKDIR /app
+
+COPY --from=builder /app/Code.class .
+
+CMD ["java", "Code"]
