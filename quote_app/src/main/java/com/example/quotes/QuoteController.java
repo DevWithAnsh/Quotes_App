@@ -9,11 +9,11 @@ import java.util.Random;
 public class QuoteController {
 
     String[] quotes = {
-            "Stay hungry, stay foolish.",
-            "Code. Break. Fix. Repeat.",
+            "Stay hungry, stay foolish nd bkar.",
+            "Code. Break. Fix. Repeat and success",
             "First, solve the problem. Then, write the code.",
-            "Simplicity is the soul of efficiency.",
-            "Dream big. Start small. Act now."
+            "Simplicity is the soul of efficiency okkyyyyyy.",
+            "Dream big. Start small. Act now. nd get sucesssss"
     };
 
     Random random = new Random();
