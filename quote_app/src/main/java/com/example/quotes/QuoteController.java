@@ -11,7 +11,7 @@ public class QuoteController {
     String[] quotes = {
             "Stay hungry, stay foolish nd bkar.",
             "Code. Break. Fix. Repeat and success",
-            "First, solve the problem. Then, write the code.",
+            "First, solve the problem. Then, write the code okkkkkkkkkk.",
             "Simplicity is the soul of efficiency okkyyyyyy.",
             "Dream big. Start small. Act now. nd get sucesssss"
     };
