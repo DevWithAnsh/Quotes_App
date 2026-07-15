@@ -21,6 +21,6 @@ public class QuoteController {
     @GetMapping("/")
     public String getQuote() {
         int index = random.nextInt(quotes.length);
-        return "<h1>" + quotes[index] + "</h1>";
+        return "<h3>" + quotes[index] + "</h3>";
     }
 }
