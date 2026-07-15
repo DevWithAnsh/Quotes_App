@@ -13,7 +13,7 @@ public class QuoteController {
             "Code. Break. Fix. Repeat and success nd sucessssssssssssss",
             "First, solve the problem. Then, write the code okkkkkkkkkk.",
             "Simplicity is the soul of efficiency okkyyyyyy.",
-            "Dream big. Start small. Act now. nd get sucesssss"
+            "Dream big. Start small. Act now. nd get sucesssss and sucwsssssss"
     };
 
     Random random = new Random();
